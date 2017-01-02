@@ -42,6 +42,6 @@ Minimax is all that is required to run the AI engine.  However, the downside of 
 
 ![alt text](https://s3.amazonaws.com/checkers-js-ai/screenshots/MiniMax.png "Minimax Algorithm")
 
-In jsCheckersAI, the alpha_beta_search() function is used to manipulate MiniMax and return the best move for the computer.
+In jsCheckersAI, the alpha_beta_search() function is used to manipulate MiniMax and return the best move for the computer.  One interesting wrinkle that we add to our algorithm is how evaluate the leaf nodes.  If the search reaches the leaf nodes and there is a jump available from a leaf node position, than the search tree expands for that leaf node only.  This strategy was based on insights from the book [Blondie 24]: https://www.amazon.com/Blondie24-Playing-Kaufmann-Artificial-Intelligence/dp/1558607838.
 
 
